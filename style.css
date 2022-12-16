@@ -26,5 +26,6 @@ body {
 .clock-wrapper {
     display: grid;
     place-items: center;
-    gap: 3px;
+    gap: 30px;
+    color: var(--white);
 }
