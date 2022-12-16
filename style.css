@@ -1,9 +1,9 @@
 :root {
-    --bkg: #1e3b54;
-    --dark: #434140;
-    --white: #fcfffe;
-    --pink:#e0abac;
-    --red:#b84746;
+    --bkg: #8E9AAF;
+    --dark: #CBC0D3;
+    --white: #ffffff;
+    --pink:#EFD3D7;
+    --purple:#DEE2FF;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     place-items: center;
     min-height: 100vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .container {
