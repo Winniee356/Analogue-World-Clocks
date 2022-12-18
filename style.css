@@ -41,3 +41,11 @@ body {
     stroke-dasharray:.1 .9;
     stroke-dashoffset:.05;
 }
+
+.ring--hours{
+    fill: transparent;
+    stroke: var(--purple);
+    stroke-width:10;
+    stroke-dasharray:.1 .9;
+    stroke-dashoffset:.05;
+}
