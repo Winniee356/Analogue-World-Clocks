@@ -1,9 +1,10 @@
 :root {
-    --bkg: #8E9AAF;
-    --dark: #CBC0D3;
-    --white: #ffffff;
-    --pink:#EFD3D7;
-    --purple:#DEE2FF;
+    --bkg: #C5E0DC;
+    --dark: #F1D4AF;
+    --beige: #ECE5CE;
+    --white: #ffff;
+    --pink:#E08E79;
+    --brown:#774F38;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
 }
 
 .ring--seconds{
-    fill: var(--dark);
+    fill: var(--beige);
     stroke: var(--pink);
     stroke-width:5;
     stroke-dasharray:.1 .9;
@@ -44,7 +45,7 @@ body {
 
 .ring--hours{
     fill: transparent;
-    stroke: var(--purple);
+    stroke: var(--pink);
     stroke-width:10;
     stroke-dasharray:.1 .9;
     stroke-dashoffset:.05;
