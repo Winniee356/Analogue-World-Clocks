@@ -50,3 +50,11 @@ body {
     stroke-dasharray:.1 .9;
     stroke-dashoffset:.05;
 }
+
+.ring--center{
+    fill: transparent;
+    stroke: var(--pink);
+    stroke-width:10;
+    stroke-dasharray:.1 .9;
+    stroke-dashoffset:.05;
+}
