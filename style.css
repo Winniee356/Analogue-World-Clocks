@@ -37,7 +37,7 @@ body {
 
 .ring--seconds{
     fill: var(--beige);
-    stroke: var(--pink);
+    stroke: var(--brown);
     stroke-width:5;
     stroke-dasharray:.1 .9;
     stroke-dashoffset:.05;
@@ -52,9 +52,7 @@ body {
 }
 
 .ring--center{
-    fill: transparent;
-    stroke: var(--pink);
+    fill: var(--pink);
+    stroke: var(--white);
     stroke-width:10;
-    stroke-dasharray:.1 .9;
-    stroke-dashoffset:.05;
 }
