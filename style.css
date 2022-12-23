@@ -53,6 +53,6 @@ body {
 
 .ring--center{
     fill: var(--pink);
-    stroke: var(--white);
+    stroke: var(--brown);
     stroke-width:10;
 }
