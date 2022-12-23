@@ -54,5 +54,5 @@ body {
 .ring--center{
     fill: var(--pink);
     stroke: var(--white);
-    stroke-width:2.5;
+    stroke-width:10;
 }
