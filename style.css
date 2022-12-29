@@ -47,7 +47,7 @@ body {
     fill: transparent;
     stroke: var(--pink);
     stroke-width:10;
-    stroke-dasharray:.0.5 .95;
+    stroke-dasharray:.05 .95;
     stroke-dashoffset:.025;
 }
 
