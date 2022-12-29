@@ -57,3 +57,7 @@ body {
     stroke-width:5;
 }
 
+.hand {
+    stroke: var(--pink);
+    stroke-linecap: round;
+}
