@@ -48,7 +48,7 @@ body {
     stroke: var(--pink);
     stroke-width:10;
     stroke-dasharray:.05 .95;
-    stroke-dashoffset:.025;
+    stroke-dashoffset:.030;
 }
 
 .ring--center{
