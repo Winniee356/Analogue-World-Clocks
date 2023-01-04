@@ -59,7 +59,6 @@ body {
 
 .hand {
     stroke: var(--pink);
-    stroke-linecap: round;
 }
 
 .hand--minute {
