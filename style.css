@@ -54,7 +54,7 @@ body {
 .ring--center{
     fill: var(--pink);
     stroke: var(--brown);
-    stroke-width:5;
+    stroke-width:2.5;
 }
 
 .hand {
