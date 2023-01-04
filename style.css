@@ -36,7 +36,7 @@ body {
 }
 
 .ring--seconds{
-    fill: var(--beige);
+    fill: var(--dark);
     stroke: var(--brown);
     stroke-width:5;
     stroke-dasharray:.1 .9;
