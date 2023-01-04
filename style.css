@@ -62,11 +62,6 @@ body {
     stroke-linecap: round;
 }
 
-.hand--minute {
-    transform: rotate(90deg);
-    stroke-width: 5;
-    stroke: var(--brown);
-}
 
 .hand--hour {
     transform: rotate(45deg);
