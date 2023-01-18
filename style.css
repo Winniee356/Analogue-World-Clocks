@@ -80,3 +80,8 @@ body {
     font-size: 24px;
 }
 
+.am-pm {
+    fill: var(--pink);
+    font-size: 9px;
+    text-transform: uppercase;
+}
