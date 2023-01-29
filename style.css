@@ -72,7 +72,7 @@ body {
 .hand--minute {
     transform: rotate(90deg);
     stroke-width: 5;
-    stroke: var(--pink);
+    stroke: var(--brown);
 }
 
 .date {
