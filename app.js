@@ -5,3 +5,9 @@ const UI = {
     minute: document.querySelector(`.hand--minute`),
     hour: document.querySelector(`.hand--hour`),
 }
+
+function updateClock() {
+    const now = new Date();
+}
+
+requestAnimationFrame(updateClock)
