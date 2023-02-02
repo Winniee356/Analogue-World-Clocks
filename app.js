@@ -10,6 +10,7 @@ function updateClock() {
     // getting date and time
     const now = new Date();
     const date = now.getDate();
+    const seconds = now.getSeconds();
     
     // UI update
     UI.date.textContent = date;
