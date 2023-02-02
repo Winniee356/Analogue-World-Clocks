@@ -8,6 +8,8 @@ const UI = {
 
 function updateClock() {
     const now = new Date();
+
+    requestAnimationFrame(updateClock)
 }
 
 requestAnimationFrame(updateClock)
