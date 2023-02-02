@@ -7,8 +7,13 @@ const UI = {
 }
 
 function updateClock() {
+    // getting date and time
     const now = new Date();
     const date = now.getDate();
+    
+    // UI update
+    UI.date.textContent = date;
+
     requestAnimationFrame(updateClock)
 }
 
