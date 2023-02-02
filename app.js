@@ -11,6 +11,8 @@ function updateClock() {
     const now = new Date();
     const date = now.getDate();
     const seconds = now.getSeconds();
+    const minutes = now.getMinutes();
+
     
     // UI update
     UI.date.textContent = date;
