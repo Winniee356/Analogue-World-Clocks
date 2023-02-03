@@ -16,7 +16,7 @@ function updateClock() {
     
     // UI update
     UI.date.textContent = date;
-
+    UI.second.style.transform = `rotate($[seconds]deg)`;
     requestAnimationFrame(updateClock)
 }
 
