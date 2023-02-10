@@ -10,7 +10,7 @@ function updateClock() {
     // getting date and time
     const now = new Date();
     const date = now.getDate();
-    const seconds = now.getSeconds() / 60 * 360;
+    const seconds = (now.getSeconds() + now.getMilliseconds()/1000) / 60 * 360;
     const minutes = now.getMinutes() / 60 * 360;
     const hours = now.getHours() / 12 * 360;
     
