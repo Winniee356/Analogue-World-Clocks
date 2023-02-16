@@ -16,9 +16,9 @@ function updateClock() {
     
     // UI update
     UI.date.textContent = date;
-   // UI.second.style.transform = `rotate(${seconds}deg)`;
-    //UI.minute.style.transform = `rotate(${minutes}deg)`;
-   // UI.hour.style.transform = `rotate(${hours}deg)`;
+    UI.second.style.transform = `rotate(${seconds}deg)`;
+    UI.minute.style.transform = `rotate(${minutes}deg)`;
+    UI.hour.style.transform = `rotate(${hours}deg)`;
     requestAnimationFrame(updateClock)
 }
 
