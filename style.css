@@ -71,7 +71,7 @@ body {
 
 .hand--minute {
     transform: rotate(90deg);
-    stroke-width: 5;
+    stroke-width: 6;
     stroke: var(--brown);
 }
 
