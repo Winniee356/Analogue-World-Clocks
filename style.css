@@ -64,7 +64,7 @@ body {
 
 .hand--hour {
     transform: rotate(45deg);
-    stroke-width: 5;
+    stroke-width: 8;
     stroke: var(--white);
 }
 
